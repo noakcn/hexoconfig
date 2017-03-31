@@ -55,7 +55,7 @@ $(function() {
 
 也是只有 `我是最里层`被执行，虽然阻止了事件往外冒泡，但是却不跳转百度。
 
-3.event.preventDefault();
+3. event.preventDefault();
 
 ```javascript
 $(function() {
