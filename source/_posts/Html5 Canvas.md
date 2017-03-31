@@ -23,7 +23,13 @@ ctx.fillRect(0, 0, 150, 75); //大小 fillRect(x,y,width,height)
 
 ![](http://om8bq99t5.bkt.clouddn.com/17-3-28/94347096-file_1490683818919_afa9.png)
 
-> canvas 的左上角坐标为 (0,0)
+> canvas 的左上角坐标为 (0,0) 
+
+
+
+<!-- more -->
+
+
 
 **Canvas - 路径**
 
