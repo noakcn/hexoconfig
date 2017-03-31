@@ -1,9 +1,17 @@
 ---
-title: HTML 5 Canvas 
+title: 
+- HTML 5 Canvas 
 
-date: 2017-3-31 10:32:16
+date: 
+- 2017-3-31 10:32:16
 
-tags: html5 canvas h5
+tags: 
+- html5
+- canvas
+- h5
+
+categories:
+- 笔记
 
 ---
 
