@@ -1,6 +1,12 @@
-# jquery 事件冒泡
-
-tags:#java script
+---
+title: jquery 事件冒泡
+date: 2017-3-31 10:49:58
+tags:
+- javascript
+- html
+categories:
+- 笔记
+---
 
 首先可以来看一个例子：
 
@@ -18,6 +24,8 @@ tags:#java script
 运行后会发现一次弹出`我是最里层-->我是中间层-->我是最外层`然后跳转到百度。
 
 那么为什么会这样呢？
+
+<!-- more -->
 
 这个就要讲讲jquery的事件冒泡了。
 

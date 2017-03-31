@@ -9,8 +9,6 @@ categories:
 - 笔记
 ---
 
-# HTML 5 Canvas
-
 ```html
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
 ```
@@ -30,16 +28,13 @@ ctx.fillRect(0, 0, 150, 75); //大小 fillRect(x,y,width,height)
 
 [点击运行](https://jsfiddle.net/noakcn/fzyttzso/2/)
 
+<!-- more -->
+
 **Canvas坐标**
 
 ![](http://om8bq99t5.bkt.clouddn.com/17-3-28/94347096-file_1490683818919_afa9.png)
 
 > canvas 的左上角坐标为 (0,0) 
-
-
-
-<!-- more -->
-
 
 
 **Canvas - 路径**
