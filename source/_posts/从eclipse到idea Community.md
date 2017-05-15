@@ -53,13 +53,57 @@ tags:
 
    ​
 
+4. idea+spring-boot+devtools热部署
+
+   - 在`pom.xml` 文件中加入新依赖 
+
+     ```xml
+     <dependency>  
+         <groupId>org.springframework.boot</groupId>  
+         <artifactId>spring-boot-devtools</artifactId>  
+         <optional>true</optional>  
+     </dependency>  
+     ```
+
+   - 在`pom.xml`的builder中加入
+
+     ```xml
+     <build>  
+         <plugins>  
+             <plugin>  
+                 <groupId>org.springframework.boot</groupId>  
+                 <artifactId>spring-boot-maven-plugin</artifactId>  
+                 <configuration>  
+                 <!--fork :  如果没有该项配置，肯呢个devtools不会起作用，即应用不会restart -->  
+                 <fork>true</fork>  
+                 </configuration>  
+             </plugin>  
+         </plugins>  
+     </build>  
+     ```
+
+   - 在idea 中 `File`>`Build,Execution,Deployment`>`Compiler`给`Build priject automatically`打√
+
+     ![](http://om8bq99t5.bkt.clouddn.com/17-5-13/52539784-file_1494665551221_dedd.png)
+
+   - 在idea中按下`ctrl+shift+alt+/`呼出配置菜单，选择Registry
+
+     ![](http://om8bq99t5.bkt.clouddn.com/17-5-13/50475758-file_1494665660680_a0fb.png)
+
+   - 找到`compiler.automake.allow.when.app.running`并打勾
+
+   - ![](http://om8bq99t5.bkt.clouddn.com/17-5-13/3861166-file_1494665712905_11897.png)
 
 
 
 
 ### 插件
 
+`File`>`Setting` > `Plugins` `> `
 
+1.代码缩略图 `CodeGlance`
+
+![](http://om8bq99t5.bkt.clouddn.com/17-5-13/9955948-file_1494666008157_bc50.png)
 
 ### 快捷键
 
